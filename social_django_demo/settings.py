@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'social_django_demo',
 
+    'chats_list',
     'accounts',
     'chats',
 ]
