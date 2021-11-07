@@ -23,4 +23,5 @@ urlpatterns = [
     path('chats/', include('chats_list.urls')),
     path("", views.index, name='index'),
     path('chat/', include('chats.urls')),
+    path('auth/', include('accounts.urls'))
 ]
