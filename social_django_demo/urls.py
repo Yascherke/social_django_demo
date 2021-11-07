@@ -21,6 +21,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('chats/', include('chats_list.urls')),
-    path("", views.index, name='main-index'),
+    path("", views.index, name='index'),
     path('chat/', include('chats.urls')),
 ]
