@@ -9,18 +9,16 @@
     <h3>Authorization</h3>    
 
     <form action="" method="post">
-        <h3>Registration</h3>
+        <h3>Login</h3>
 
         <p>E-mail</p>
         <input type="email" name="r-email" id="">
-        <p>Login</p>
-        <input type="text" name="r-login" id="">
         <p>Password</p>
         <input type="password" name="r-password" id=""><br><br>
 
         <button type="submit">Send</button>
     </form><br>
     
-    <a href="{% url 'auth:login' %}">Enter in account</a>
+    <a href="{% url 'auth:index' %}">Create account</a>
     <a href="{% url 'index' %}">Back</a>
 {% endblock %}

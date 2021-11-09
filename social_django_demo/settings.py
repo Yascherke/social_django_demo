@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'chats_list',
     'accounts',
     'chats',
+    'profiles',
 ]
 
 MIDDLEWARE = [
